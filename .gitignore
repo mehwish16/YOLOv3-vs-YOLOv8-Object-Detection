@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+yoloenv/
+*.DS_Store
+
+# YOLO output folders
+output/
+runs/
+
+# Large model weights
+*.weights
+*.pt
