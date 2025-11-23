@@ -85,32 +85,6 @@ YOLOv3 performs well but is slower; YOLOv8 achieves faster inference while maint
 | Visualization | Manual (OpenCV display)      | Automatic (Ultralytics)       |
 
 
-## Project Structure
-
-ProjectRoot/
-│
-├── image_detection/
-│   ├── yolov3_image.py
-│   └── yolov8_image.py
-│
-├── video_detection/
-│   ├── yolov3_video.py
-│   └── yolov8_video.py
-│
-├── yolo-coco/
-│   ├── coco.names
-│   ├── yolov3.cfg
-│   └── yolov3.weights
-│
-├── input/
-│   ├── images/
-│   └── videos/
-│
-└── output/
-    ├── yolov3/
-    └── yolov8/
-
-
 ## Limitations
 
 * YOLOv3 may struggle with small or densely packed objects.
